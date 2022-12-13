@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+nav{
+  width: 100%;
+  height: 70px;
+  background: black;
+  position: block;
+  align-content: center;
+  user-select: none;
+}
+nav h1{
+color: white;
+position: absolute;
+margin-top: 15px;
+margin-left: 46%;
+font-size: 35px;
+}
+
+/* card */
+#bagian1{
+  display: flex;
+}
+.gambar{
+  width: 300px;
+  height: 300px;
+}
+.card {
+  box-shadow: 0 19px 115px 110px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 1.5%;
+  font-family: arial;
+}
+.card h1{
+  text-align: center;
+}
+.card {
+  text-align: center;
+}
+
+.price {
+  text-align: center;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: all 0.5s ease;
+}
+
+.card button:hover {
+  opacity: 0.7;
+  background: rgb(5, 3, 102);
+  color: white;
+}
+ 
+
+#baris2{
+  display: flex;
+}
+.gambar{
+  width: 300px;
+  height: 300px;
+}
+.card {
+  box-shadow: 0 9px 5px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 1.5%;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}

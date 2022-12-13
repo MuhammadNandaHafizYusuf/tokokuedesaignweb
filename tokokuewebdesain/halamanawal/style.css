@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+}
+header{
+    font-size: 40px;
+    color: white;
+    user-select: none;
+    font-family: 'Courgette', cursive;
+}
+
+nav{
+    background: rgb(26, 19, 58);
+    height: 80px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   padding: 0 50px 0 100px ;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 12px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-family: 'Noto Serif', serif;
+    transition: all 1s ease ;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    background: white;
+    color: black;
+}
+
+/* bagian home */
+#boxhome{
+    width: 100%;
+    height: 350px;
+    background:black;
+    border: 3px solid black;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+}
+
+/* bagian menu pesanan kue */
+#boxmenu1{
+    float: right;
+    justify-content: right;
+    width: 50%;
+    height: 200px;
+    background: white;
+    border: 0px solid black;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+}
+#boxmenu1:hover{
+    -webkit-transform: scale(0.8);
+     transform: scale(1.08);
+     -webkit-transition: 0.4s ease;
+     transition: 0.4s ease;
+}
+
+#boxmenu2{
+    float: left;
+    width: 50%;
+    height: 200px;
+    background: white;
+    border: 0px solid black;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+}
+#boxmenu2:hover{
+    -webkit-transform: scale(0.8);
+     transform: scale(1.08);
+     -webkit-transition: 0.4s ease;
+     transition: 0.4s ease;
+}
+
+/*  bagian footer */
+#boxmenu3{
+    user-select: none;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    background: rgb(26, 19, 58);
+}
+#boxmenu3 p{
+display: flex;
+color: white;
+margin-left: 46%;
+margin-top: 12px;
+font-size: 20px;
+}
+
+#instagram{
+    margin-top: 40px;
+    margin-left: -250px;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+}
+#instagram img{
+border-radius: 50%;
+}
+#facebook{
+    border-radius: 70%;
+    margin-top: 40px;
+    margin-left: 55px;
+    width: 50px;
+    height: 50px;
+    background: white;
+}
+#facebook img{
+    border-radius: 70%;
+    }
+#twiter{
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 50px;
+    height: 50px;
+    background: white;
+}
+#twiter img{
+    border-radius: 50%;
+    }
+#Sestyc{
+    border-radius: 60%;
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 50px;
+    height: 50px;
+    background: white;
+}
+#Sestyc img{
+    border-radius: 60%;
+    }
